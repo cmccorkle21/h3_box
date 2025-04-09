@@ -2,6 +2,8 @@ import subprocess
 from config import ONN_IP, ADB_PORT
 from log_config import get_logger
 
+logger = get_logger("launcher")
+
 def launch_youtube_stream(video_id):
     youtube_url = f"https://www.youtube.com/watch?v={video_id}"
     adb_cmds = [
