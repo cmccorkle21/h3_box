@@ -1,0 +1,8 @@
+config.py
+*.json
+*.csv
+*.log
+*.txt
+venv
+__pycache__/
+*.pyc
